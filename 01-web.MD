@@ -45,7 +45,7 @@ unzip /tmp/web.zip
 
 Try to access the nginx service once more over the browser and ensure you get roboshop content.
 
-Create Nginx Reverse Proxy Configuration.
+Create Nginx Reverse Proxy Configuration. This is for extra confirguration.  
 
 ``` 
 vim /etc/nginx/default.d/roboshop.conf 
