@@ -29,7 +29,7 @@ systemctl enable mongod
 systemctl start mongod
 ```
 
-Usually MongoDB opens the port only to localhost(127.0.0.1), meaning this service can be accessed by the application that is hosted on this server only. However, we need to access this service to be accessed by another server(remote server), So we need to change the config accordingly.
+Check if MongoDB is working using netstat -lntp and see if for port number 27017 as MongoDB opens on that port. Also you can check through ps -ef| grep Mongo. Or Systemctl status Mongo. Usually MongoDB opens the port only to localhost(127.0.0.1), meaning this service can be accessed by the application that is hosted on this server only. However, we need to access this service to be accessed by another server(remote server), So we need to change the config accordingly.
 
 Update listen address from 127.0.0.1 to 0.0.0.0 in /etc/mongod.conf
 
