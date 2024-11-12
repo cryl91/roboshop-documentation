@@ -1,5 +1,5 @@
 ### Catalogue
-Catalogue is a microservice that is responsible for serving the list of products that displays in roboshop application.
+Catalogue is a microservice that is responsible for serving the list of products that displays in roboshop application. It is developed in nodejs.
 
 Setup NodeJS repos. Vendor is providing a script to setup the repos.
 
