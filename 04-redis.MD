@@ -1,7 +1,7 @@
 ### Redis
 Redis is used for in-memory data storage(Caching) and allows users to access the data of database over API.
 
-Redis is offering the repo file as a rpm. Lets install it
+Redis is offering the repo file as a rpm(redhat package manager). Lets install it
 
 ```
 yum install https://rpms.remirepo.net/enterprise/remi-release-8.rpm -y
