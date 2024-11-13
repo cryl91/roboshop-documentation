@@ -1,5 +1,6 @@
 ### Dispatch
 Dispatch is the service which dispatches the product after purchase. It is written in GoLang, So wanted to install GoLang.
+It is a microservice always listening to the payments queue for product and shipping information.
 
 Install GoLang
 
