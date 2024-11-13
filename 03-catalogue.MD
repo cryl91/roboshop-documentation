@@ -100,7 +100,7 @@ systemctl start catalogue
 * Schemas are usually part of application code and developer will provide them as part of development.
 
 
-We need to load the schema. To load schema we need to install mongodb client.
+We need to load the schema or data. To load schema we need to install mongodb client.
 
 To have it installed we can setup MongoDB repo and install mongodb-client
 
